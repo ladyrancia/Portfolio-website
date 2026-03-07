@@ -1,63 +1,112 @@
 # Portfolio-website
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Caroline Muiruri | Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Caroline Muiruri | Portfolio</title>
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background-color: #f4f4f4;
-        }
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
 
-        header {
-            background: #333;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
+header {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
 
-        nav a {
-            color: white;
-            margin: 0 15px;
-            text-decoration: none;
-            font-weight: bold;
-        }
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
 
-        section {
-            padding: 40px;
-            text-align: center;
-        }
+section {
+    padding: 40px;
+    text-align: center;
+}
 
-        .projects {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            flex-wrap: wrap;
-        }
+.projects {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
 
-        .project-card {
-            background: white;
-            padding: 20px;
-            width: 250px;
-            border-radius: 10px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-        }
+.project-card {
+    background: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
 
-        footer {
-            background: #333;
-            color: white;
-            text-align: center;
-            padding: 10px;
-        }
-    </style>
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+</style>
 </head>
 
 <body>
 
 <header>
     <h1>Caroline Muiruri</h1>
-    <p>Aspiring
+    <p>Aspiring Web Developer</p>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Caroline, a student learning web development. I enjoy creating websites and learning new technology skills.</p>
+</section>
+
+<section id="projects">
+    <h2>My Projects</h2>
+
+    <div class="projects">
+
+        <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>A personal website showcasing my work.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>School Project</h3>
+            <p>A simple website created for a class assignment.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Future Project</h3>
+            <p>More exciting projects coming soon!</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: caroline@example.com</p>
+</section>
+
+<footer>
+    <p>© 2026 Caroline Muiruri</p>
+</footer>
+
+</body>
+</html>
+```
