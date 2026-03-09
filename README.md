@@ -1,112 +1,68 @@
 # Portfolio-website
+# Week 03: Developer Tools and Workflow
+
+## Author
+- **Name:** Ranciah Valentine
+- **GitHub:** @ladyrancia(https://github.com/ladyrancia)
+- **Date:** 03,2026
+
+## Project Description
+# What I Will Build
+
+A **portfolio project managed with Git and GitHub**.
+
+# What It Includes
+
+- Project structure created using the **terminal**
+- **HTML and CSS** files
+- **Git repository** with commit history
+- **Branches and merges**
+- **GitHub remote repository**
+- A **professional README**
+
+# Why I Am Building It
+
+- To learn **command line usage**
+- To understand the **Git workflow**
+- To practice **real developer tools**
+- To create a **portfolio with version history on GitHub**
+
+## Technologies Used
+- HTML5
+- CSS
+
+## Features
+- Terminal-based project setup
+- Organized project folder structure
+- Git version control with commit history
+- Branching and merging workflow
+- Remote repository on GitHub
+- Professional README documentation
+
+## How to Run
+1. Clone the repository
+   ```bash
+   git clone https://github.com/ladyrancia/iyf-s10-week-03-ladyrancia.git
+2. Navigate into the project folder
+   cd iyf-s10-week-03-ladyrancia
+2. Open `index.html` in your browser
+
+## Lessons Learned
+- How to navigate the file system using the terminal
+- How to create, move, copy, and delete files using CLI commands
+- How to initialize and manage a Git repository
+- How to write meaningful commit messages
+- How to create, switch, merge, and delete Git branches
+- How to push and pull code using GitHub
+- How to write a professional README file
+
+## Challenges Faced
+- Learning to navigate the terminal without using a file explorer
+- Remembering different command line commands
+- Understanding Git workflow and commit history
+- Resolving merge conflicts between branches
+- Organizing project files correctly
+
+## Live Demo (if deployed)
+[View Live Demo](https://your-deployed-url.com)
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Caroline Muiruri | Portfolio</title>
-
-<style>
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background-color: #f4f4f4;
-}
-
-header {
-    background: #333;
-    color: white;
-    padding: 0 px;
-    text-align: center;
-}
-
-nav a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-section {
-    padding: 40px;
-    text-align: center;
-}
-
-.projects {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-.project-card {
-    background: white;
-    padding: 20px;
-    width: 250px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-}
-
-footer {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
-</style>
-</head>
-
-<body>
-
-<header>
-    <h1>Caroline Muiruri</h1>
-    <p>Aspiring Web Developer</p>
-
-    <nav>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-    </nav>
-</header>
-
-<section id="about">
-    <h2>About Me</h2>
-    <p>Hello! I'm Caroline, a student learning web development. I enjoy creating websites and learning new technology skills.</p>
-</section>
-
-<section id="projects">
-    <h2>My Projects</h2>
-
-    <div class="projects">
-
-        <div class="project-card">
-            <h3>Portfolio Website</h3>
-            <p>A personal website showcasing my work.</p>
-        </div>
-
-        <div class="project-card">
-            <h3>School Project</h3>
-            <p>A simple website created for a class assignment.</p>
-        </div>
-
-        <div class="project-card">
-            <h3>Future Project</h3>
-            <p>More exciting projects coming soon!</p>
-        </div>
-
-    </div>
-</section>
-
-<section id="contact">
-    <h2>Contact</h2>
-    <p>Email: caroline@example.com</p>
-</section>
-
-<footer>
-    <p>© 2026 Caroline Muiruri</p>
-</footer>
-
-</body>
-</html>
-```
